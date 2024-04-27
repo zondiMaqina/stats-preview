@@ -14,8 +14,24 @@ body{
 
 #sub-title{
     color: white;
+    font-size: 28px;
 }
 
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.details, .stats p{
+    color: hsla(0, 0%, 100%, 0.75);
+    word-spacing: 2px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+
+.stats strong{
+    color: white;
+    font-size: 20px;
+}
 
 footer{
     width: 100%;
