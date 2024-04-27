@@ -35,6 +35,8 @@ Users should be able to:
 `  ```<section class="image">```
       ```<img src="path" alt"">```
    ```</section>```
+
+   I struggled with knowing how to include a background-color to the image
   
 
 ### Continued development
