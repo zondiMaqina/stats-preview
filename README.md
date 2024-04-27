@@ -10,7 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,7 +30,12 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-
+  i was struggling with knwoing how to include images that will be responsive, i didi not know whether to include them as background images or as image elements
+`
+`  ```<section class="image">```
+      ```<img src="path" alt"">```
+   ```</section>```
+  
 
 ### Continued development
 
