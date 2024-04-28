@@ -13,19 +13,19 @@ body{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 0 120px;
 }
 
 main{
     background-color: hsl(244, 38%, 16%);
     display: flex;
+    margin: 40px;
 }
 
 .content{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 0 30px;
+    padding: 20px 30px;
 }
 
 .statistics{
@@ -61,7 +61,7 @@ span{
 }
 
 .background{
-    width: 100%;
+    min-width: 500px;
     background: url(./images/image-header-desktop.jpg);
     height: 440px;
 }
@@ -70,7 +70,7 @@ span{
     display: block;
     width: 100%;
     height: 100%;
-    background-color: hsla(277, 79%, 13%, 0.644);
+    background-color: hsla(277, 82%, 25%, 0.644);
 }
 
 footer{
@@ -88,3 +88,38 @@ footer{
     font-size: 18px;
 }
 
+
+@media screen and (max-width: 800px){
+    body, .content{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .content{
+        gap: 60px;
+        text-align: center;
+    }
+
+    .background{
+        flex-shrink: 3;
+        flex-grow: 1;
+    }
+
+    .text{
+        gap: 20px;
+    }
+
+    .stats{
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .statistics{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
