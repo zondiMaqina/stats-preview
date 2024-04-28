@@ -21,9 +21,27 @@ main{
     display: flex;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 30px;
+}
+
+.statistics{
+    display: flex; 
+    justify-content: space-evenly;
+}
+
 #sub-title{
     color: white;
-    font-size: 28px;
+    font-size: 35px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 span{
@@ -56,5 +74,4 @@ footer{
     color: hsl(228, 45%, 44%); 
     font-size: 18px;
 }
-
 
