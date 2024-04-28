@@ -43,6 +43,18 @@ Users should be able to:
   >   backgroung-color: color;
   >}
 
+  So i then used the img element as a background-image 
+
+  > <div class="background"><span class="overlay">.</span></div>
+
+  I then use the ```span``` element as an overlay to cover the image in color (hsl())
+
+  > width: 100%;
+  > height: 100%;
+  > background-color: hsla(277, 82%, 25%, 0.644);
+
+
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
