@@ -30,14 +30,18 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
+
   i was struggling with knwoing how to include images that will be responsive, i didi not know whether to include them as background images or as image elements
 `
 `  ```<section class="image">```
-      ```<img src="path" alt"">```
+      ```<img src="path" alt"" class="img">```
    ```</section>```
 
-   I struggled with knowing how to include a background-color to the image
-  
+   I struggled with knowing how to include a background-color to the image, i tried including the color straight to the ```img``` element
+
+  > .img{
+  >   backgroung-color: color;
+  >}
 
 ### Continued development
 
