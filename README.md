@@ -33,9 +33,9 @@ Users should be able to:
 
   i was struggling with knwoing how to include images that will be responsive, i didi not know whether to include them as background images or as image elements
 `
-`  ```<section class="image">```
-      ```<img src="path" alt"" class="img">```
-   ```</section>```
+` > <section class="image">
+  >   <img src="path" alt="image" class="img">
+  > </section>
 
    I struggled with knowing how to include a background-color to the image, i tried including the color straight to the ```img``` element
 
