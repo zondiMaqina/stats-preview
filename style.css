@@ -6,10 +6,19 @@
     text-decoration: none;
 }
 
-/*Colors and Typography*/
-
 body{
+   min-height: 120vh;
    background-color: hsl(233, 47%, 7%); 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0 120px;
+}
+
+main{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
 }
 
 #sub-title{
@@ -49,4 +58,3 @@ footer{
 }
 
 
-/*Positioning and sizing*/
