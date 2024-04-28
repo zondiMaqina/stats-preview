@@ -24,8 +24,8 @@ main{
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 20px 30px;
+    padding: 45px;
+    justify-content: space-around;
 }
 
 .statistics{
@@ -62,9 +62,13 @@ span{
 }
 
 .background{
-    min-width: 500px;
+    width: 500px;
     background: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 440px;
+    flex-shrink: 3;
+    flex-grow: 1;
 }
 
 .span{
@@ -105,8 +109,8 @@ footer{
     }
 
     .background{
-        flex-shrink: 3;
-        flex-grow: 1;
+        max-width: 400px;
+        height: 350px;
     }
 
     .text{
